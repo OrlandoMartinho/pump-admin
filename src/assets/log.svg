@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="74" height="28" viewBox="0 0 74 28">
+  <g id="Grupo_264" data-name="Grupo 264" transform="translate(-100.276 -454.039)">
+    <g id="Grupo_329" data-name="Grupo 329">
+      <g id="Grupo_4" data-name="Grupo 4" transform="translate(100 454)">
+        <rect id="Retângulo_7" data-name="Retângulo 7" width="28" height="28" rx="8" transform="translate(0.276 0.039)" fill="#f2fff7"/>
+        <path id="Icon_awesome-gas-pump" data-name="Icon awesome-gas-pump" d="M11.437,15.249H.545A.546.546,0,0,0,0,15.794v1.089a.546.546,0,0,0,.545.545H11.437a.546.546,0,0,0,.545-.545V15.794A.546.546,0,0,0,11.437,15.249Zm5.351-11.6L14.031.9a.546.546,0,0,0-.769,0l-.385.385a.546.546,0,0,0,0,.769L14.16,3.332V5.446a1.9,1.9,0,0,0,1.634,1.879V12.8a.817.817,0,0,1-1.634,0V11.709a3,3,0,0,0-3-3h-.272V2.178A2.18,2.18,0,0,0,8.714,0H3.268A2.18,2.18,0,0,0,1.089,2.178V14.16h9.8V10.348h.272a1.361,1.361,0,0,1,1.362,1.362v.946a2.553,2.553,0,0,0,2.2,2.584A2.458,2.458,0,0,0,17.428,12.8v-7.6a2.182,2.182,0,0,0-.64-1.542ZM8.714,6.535H3.268V2.178H8.714Z" transform="translate(6.777 5.325)" fill="#25d366"/>
+      </g>
+    </g>
+    <text id="Pump" transform="translate(135.276 473.039)" fill="#fff" font-size="14" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Pump</tspan></text>
+  </g>
+</svg>

@@ -1,22 +1,22 @@
 import { FaEnvelope, FaLock, FaUser } from "react-icons/fa"; // Ícones do react-icons
 import ilustration from "../assets/fuel-station-animate .svg";
 import { useState, useEffect } from "react";
-import Loader from "./Loader"; // Certifique-se de ajustar o caminho corretamente
-
+import Loader from "../components/Loader"; 
+import { useNavigate } from "react-router-dom";
 const LoginPage = () => {
   const [isLoading, setIsLoading] = useState(true);
-
+  const navigate = useNavigate();
   useEffect(() => {
     // Simula o carregamento inicial da página
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 3000); // 3 segundos para exibir o loader
+    }, 2000); // 3 segundos para exibir o loader
     return () => clearTimeout(timer); // Limpa o timer ao desmontar o componente
   }, []);
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    alert("Login realizado com sucesso!");
+    navigate("/home");
   };
 
   if (isLoading) {
