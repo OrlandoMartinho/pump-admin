@@ -42,7 +42,7 @@ const NotificationModal: React.FC<NotificationModalProps> = ({
   };
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-end items-start z-50">
+    <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-end items-start z-50 ">
       <motion.div
         className="bg-white rounded-lg shadow-lg w-96 p-6 relative"
         initial={{ scale: 0.8, opacity: 0 }}
@@ -51,11 +51,11 @@ const NotificationModal: React.FC<NotificationModalProps> = ({
         transition={{ type: "spring", stiffness: 300, damping: 20 }}
       >
         {/* Cabeçalho */}
-        <div className="flex justify-between items-center mb-4">
+        <div className="flex justify-between items-center mb-4 right-10 top-10">
           <div className="flex items-center space-x-2">
-            <FaBell size={20} className="text-gray-700" />
+            <FaBell size={20} className="text-gray-700 " />
             <h2 className="text-lg font-bold">Notificações</h2>
-            <span className="bg-purple-600 text-white text-xs font-semibold rounded-full px-2 py-0.5">
+            <span className="bg-green-500 text-white text-xs font-semibold rounded-full px-2 py-0.5">
               {notifications.filter((n) => !n.read).length}
             </span>
           </div>
@@ -68,7 +68,9 @@ const NotificationModal: React.FC<NotificationModalProps> = ({
         </div>
 
         {/* Lista de Notificações */}
-        <div className="max-h-96 overflow-y-auto mb-4 overflow-x-hidden">
+       {/* Lista de Notificações */}
+        <div className="max-h-96 overflow-y-auto mb-4 overflow-x-hidden custom-scroll">
+
           {notifications.length > 0 ? (
             <ul className="space-y-4">
               {notifications.map((notification) => (

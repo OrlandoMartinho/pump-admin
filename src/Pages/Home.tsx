@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
-import { FaHome, FaUsers, FaBullhorn, FaCog, FaSignOutAlt, FaBell } from "react-icons/fa";
-import logo from "../assets/log.svg";
+import  { useState, useEffect } from "react";
+import {  FaUsers, FaBullhorn, FaCog,  FaBell } from "react-icons/fa";
+import Sidebar from "../components/SideBar"; 
 import Loader from "../components/Loader"; // Ajuste o caminho conforme necessário
 import { Bar, Doughnut } from "react-chartjs-2";
 import { motion } from "framer-motion"; 
@@ -261,72 +261,7 @@ const Home = () => {
 
   return (
     <div className="flex h-screen">
-      {/* Menu de Navegação */}
-      <motion.nav
-        className="bg-gradient-to-b from-green-400 to-green-500 text-white w-20 md:w-48 flex flex-col items-center py-6 fixed h-full border-r border-gray-300"
-        initial={{ x: -100 }}
-        animate={{ x: 0 }}
-        transition={{ type: "spring", stiffness: 100, damping: 15 }}
-      >
-        {/* Logo */}
-        <div className="mb-10 flex flex-col items-center">
-          <img src={logo} alt="Logo" className="h-16 w-16 md:h-20 md:w-20 border-white" />
-        </div>
-
-        {/* Menu de Navegação */}
-        <div className="flex flex-col flex-1 gap-6">
-          <motion.button
-            className="flex items-center justify-start p-3 w-full rounded-lg hover:bg-white hover:text-green-600 transition-all ease-in-out duration-200"
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.1, duration: 0.3 }}
-          >
-            <FaHome className="text-3xl md:text-2xl mr-3" />
-            <span className="hidden md:block text-sm">Home</span>
-          </motion.button>
-
-          <motion.button
-            className="flex items-center justify-start p-3 w-full rounded-lg hover:bg-white hover:text-green-600 transition-all ease-in-out duration-200"
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.2, duration: 0.3 }}
-          >
-            <FaUsers className="text-3xl md:text-2xl mr-3" />
-            <span className="hidden md:block text-sm">Afiliados</span>
-          </motion.button>
-
-          <motion.button
-            className="flex items-center justify-start p-3 w-full rounded-lg hover:bg-white hover:text-green-600 transition-all ease-in-out duration-200"
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.3, duration: 0.3 }}
-          >
-            <FaBullhorn className="text-3xl md:text-2xl mr-3" />
-            <span className="hidden md:block text-sm">Comunicados</span>
-          </motion.button>
-
-          <motion.button
-            className="flex items-center justify-start p-3 w-full rounded-lg hover:bg-white hover:text-green-600 transition-all ease-in-out duration-200"
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.4, duration: 0.3 }}
-          >
-            <FaCog className="text-3xl md:text-2xl mr-3" />
-            <span className="hidden md:block text-sm">Configurações</span>
-          </motion.button>
-
-          <motion.button
-            className="flex items-center justify-start p-3 mt-auto w-full rounded-lg hover:bg-white hover:text-green-600 transition-all ease-in-out duration-200"
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.5, duration: 0.3 }}
-          >
-            <FaSignOutAlt className="text-3xl md:text-2xl mr-2" />
-            <span className="hidden md:block text-sm">Sair</span>
-          </motion.button>
-        </div>
-      </motion.nav>
-
+        <Sidebar />
       {/* Main Content */}
       <div className="flex-1 p-6 ml-20 md:ml-48 bg-gray-100">
         {/* Cabeçalho com ícones */}
