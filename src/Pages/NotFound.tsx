@@ -28,7 +28,7 @@ const NotFound = () => {
         className="max-w-96 max-h-full"
       />
       <button
-        onClick={() => navigate("/home")} // Redireciona para a página inicial
+        onClick={() => navigate("/")} // Redireciona para a página inicial
         className="mt-0 px-20 py-2 bg-green-500 text-white rounded-md hover:bg-green-600 transition duration-300"
       >
         Voltar para a Página Inicial

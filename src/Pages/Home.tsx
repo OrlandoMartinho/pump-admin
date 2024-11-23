@@ -57,6 +57,189 @@ const Home = () => {
       title: ""
     },
     {
+      id: 1,
+      icon: NotificationIcon,
+      message: "Você tem uma nova mensagem.",
+      read: false,
+      date: new Date("2024-11-21T10:30:00"),
+      title: ""
+    },
+    {
+      id: 1,
+      icon: NotificationIcon,
+      message: "Você tem uma nova mensagem.",
+      read: false,
+      date: new Date("2024-11-21T10:30:00"),
+      title: ""
+    },
+    {
+      id: 1,
+      icon: NotificationIcon,
+      message: "Você tem uma nova mensagem.",
+      read: false,
+      date: new Date("2024-11-21T10:30:00"),
+      title: ""
+    },
+    {
+      id: 1,
+      icon: NotificationIcon,
+      message: "Você tem uma nova mensagem.",
+      read: false,
+      date: new Date("2024-11-21T10:30:00"),
+      title: ""
+    },
+    {
+      id: 1,
+      icon: NotificationIcon,
+      message: "Você tem uma nova mensagem.",
+      read: false,
+      date: new Date("2024-11-21T10:30:00"),
+      title: ""
+    },
+    {
+      id: 1,
+      icon: NotificationIcon,
+      message: "Você tem uma nova mensagem.",
+      read: false,
+      date: new Date("2024-11-21T10:30:00"),
+      title: ""
+    },
+    {
+      id: 1,
+      icon: NotificationIcon,
+      message: "Você tem uma nova mensagem.",
+      read: false,
+      date: new Date("2024-11-21T10:30:00"),
+      title: ""
+    },
+    {
+      id: 1,
+      icon: NotificationIcon,
+      message: "Você tem uma nova mensagem.",
+      read: false,
+      date: new Date("2024-11-21T10:30:00"),
+      title: ""
+    },
+    {
+      id: 1,
+      icon: NotificationIcon,
+      message: "Você tem uma nova mensagem.",
+      read: false,
+      date: new Date("2024-11-21T10:30:00"),
+      title: ""
+    },
+    {
+      id: 1,
+      icon: NotificationIcon,
+      message: "Você tem uma nova mensagem.",
+      read: false,
+      date: new Date("2024-11-21T10:30:00"),
+      title: ""
+    },
+    {
+      id: 1,
+      icon: NotificationIcon,
+      message: "Você tem uma nova mensagem.",
+      read: false,
+      date: new Date("2024-11-21T10:30:00"),
+      title: ""
+    },
+    {
+      id: 1,
+      icon: NotificationIcon,
+      message: "Você tem uma nova mensagem.",
+      read: false,
+      date: new Date("2024-11-21T10:30:00"),
+      title: ""
+    },
+    {
+      id: 1,
+      icon: NotificationIcon,
+      message: "Você tem uma nova mensagem.",
+      read: false,
+      date: new Date("2024-11-21T10:30:00"),
+      title: ""
+    },
+    {
+      id: 1,
+      icon: NotificationIcon,
+      message: "Você tem uma nova mensagem.",
+      read: false,
+      date: new Date("2024-11-21T10:30:00"),
+      title: ""
+    },
+    {
+      id: 1,
+      icon: NotificationIcon,
+      message: "Você tem uma nova mensagem.",
+      read: false,
+      date: new Date("2024-11-21T10:30:00"),
+      title: ""
+    },
+    {
+      id: 1,
+      icon: NotificationIcon,
+      message: "Você tem uma nova mensagem.",
+      read: false,
+      date: new Date("2024-11-21T10:30:00"),
+      title: ""
+    },
+    {
+      id: 1,
+      icon: NotificationIcon,
+      message: "Você tem uma nova mensagem.",
+      read: false,
+      date: new Date("2024-11-21T10:30:00"),
+      title: ""
+    },
+    {
+      id: 1,
+      icon: NotificationIcon,
+      message: "Você tem uma nova mensagem.",
+      read: false,
+      date: new Date("2024-11-21T10:30:00"),
+      title: ""
+    },
+    {
+      id: 1,
+      icon: NotificationIcon,
+      message: "Você tem uma nova mensagem.",
+      read: false,
+      date: new Date("2024-11-21T10:30:00"),
+      title: ""
+    },
+    {
+      id: 1,
+      icon: NotificationIcon,
+      message: "Você tem uma nova mensagem.",
+      read: false,
+      date: new Date("2024-11-21T10:30:00"),
+      title: ""
+    },
+    {
+      id: 1,
+      icon: NotificationIcon,
+      message: "Você tem uma nova mensagem.",
+      read: false,
+      date: new Date("2024-11-21T10:30:00"),
+      title: ""
+    }, {
+      id: 1,
+      icon: NotificationIcon,
+      message: "Você tem uma nova mensagem.",
+      read: false,
+      date: new Date("2024-11-21T10:30:00"),
+      title: ""
+    },
+    {
+      id: 1,
+      icon: NotificationIcon,
+      message: "Você tem uma nova mensagem.",
+      read: false,
+      date: new Date("2024-11-21T10:30:00"),
+      title: ""
+    },
+    {
       id: 2,
       icon: NotificationIcon,
       message: "Seu pedido foi enviado.",
